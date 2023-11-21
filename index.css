@@ -24,11 +24,11 @@ body {
 }
 
 #bar1 {
-  transform: translateY(-16px);
+  transform: translateY(-9px);
 }
 
 #bar3 {
-  transform: translateY(16px);
+  transform: translateY(9px);
 }
 
 .nav {
