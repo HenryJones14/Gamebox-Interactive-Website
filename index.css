@@ -80,11 +80,11 @@ body {
 }
 
 .change #bar1 {
-  transform: translateY(4px) rotateZ(-225deg);
+  transform: translateY(5px) rotateZ(-225deg);
 }
 
 .change #bar3 {
-  transform: translateY(-6px) rotateZ(225deg);
+  transform: translateY(-5px) rotateZ(225deg);
 }
 
 .change-bg {
