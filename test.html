@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        li:nth-child(1) {
+            transition-delay: 0.25s;
+        }
+
+        li:nth-child(2) {
+            transition-delay: 0.5s;
+        }
+
+        li:nth-child(3) {
+            transition-delay: 0.75s;
+        }
+
+        /* Add more nth-child styles for additional li elements */
+
+        ul:hover li {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+</body>
+</html>
