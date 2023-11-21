@@ -14,30 +14,28 @@
             transition: opacity 0.5s ease-in-out;
         }
 
-        li:nth-child(1) {
-            transition-delay: 0.25s;
-        }
-
-        li:nth-child(2) {
-            transition-delay: 0.5s;
-        }
-
-        li:nth-child(3) {
-            transition-delay: 0.75s;
-        }
-
-        /* Add more nth-child styles for additional li elements */
-
-        ul:hover li {
+        li.fade-in {
             opacity: 1;
         }
     </style>
 </head>
 <body>
-    <ul>
+    <button onclick="toggleFade()">Toggle Fade</button>
+    <ul id="myList">
         <li>Item 1</li>
         <li>Item 2</li>
         <li>Item 3</li>
     </ul>
+
+    <script>
+        function toggleFade() {
+            var list = document.getElementById('myList');
+            var items = list.getElementsByTagName('li');
+            
+            for (var i = 0; i < items.length; i++) {
+                items[i].classList.toggle('fade-in');
+            }
+        }
+    </script>
 </body>
 </html>
