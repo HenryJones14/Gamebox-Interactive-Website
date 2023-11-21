@@ -83,10 +83,6 @@ body {
   transform: translateY(4px) rotateZ(-225deg);
 }
 
-.change #bar2 {
-  opacity: 0;
-}
-
 .change #bar3 {
   transform: translateY(-6px) rotateZ(225deg);
 }
