@@ -24,11 +24,11 @@ body {
 }
 
 #bar1 {
-  transform: translateY(-70px);
+  transform: translateY(-16px);
 }
 
 #bar3 {
-  transform: translateY(70px);
+  transform: translateY(16px);
 }
 
 .nav {
@@ -80,7 +80,7 @@ body {
 }
 
 .change #bar1 {
-  transform: translateY(7px) rotateZ(-225deg);
+  transform: translateY(4px) rotateZ(-225deg);
 }
 
 .change #bar2 {
@@ -88,7 +88,7 @@ body {
 }
 
 .change #bar3 {
-  transform: translateY(-9px) rotateZ(225deg);
+  transform: translateY(-6px) rotateZ(225deg);
 }
 
 .change-bg {
