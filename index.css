@@ -83,6 +83,8 @@ nav {
   width: 48;
   border-radius: 8px;
   margin: 3px;
+
+  transition: var(--nav-animation-duration) ease-in-out;
 }
 
 .NavButton:hover .NavButtonBar {
