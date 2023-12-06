@@ -1,5 +1,6 @@
-function menuOnClick() {
-  document.getElementById("menu-bar").classList.toggle("change");
-  document.getElementById("nav").classList.toggle("change");
-  document.getElementById("menu-bg").classList.toggle("change-bg");
+function ToggleNavMenu() {
+  document.getElementById("TopBar").classList.toggle("Change");
+  document.getElementById("MidBar").classList.toggle("Change");
+  document.getElementById("BotBar").classList.toggle("Change");
+  document.getElementById("Background").classList.toggle("Change");
 }
