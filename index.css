@@ -37,7 +37,7 @@ section {
 
 
 nav {
-  caret-color: clear;
+  caret-color: transparent;
   position: fixed;
   left: 0;
   top: 0;
